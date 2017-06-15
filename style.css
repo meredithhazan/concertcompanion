@@ -1,0 +1,46 @@
+* {
+    box-sizing: border-box;
+}
+
+.demo-layout-transparent {
+  background: url('images/crowd-heart-photo.jpg');
+  height: 800px;
+}
+.demo-layout-transparent .mdl-layout__header,
+.demo-layout-transparent .mdl-layout__drawer-button {
+  /* This background is dark, so we set text to white. Use 87% black instead if
+     your background is light. */
+  color: white;
+  padding: 0 40px 0 100px;
+
+}
+
+.mdl-layout {
+	width: 1200px;
+	margin: auto;
+
+}
+
+.mdl-layout__container {	
+	position: static;
+	
+}
+
+.mdl-layout-title {
+	font-size: 28px;
+}
+
+.mdl-navigation__link {
+	font-size: 16px;
+}
+
+.mdl-cell {
+	margin: 55px;
+	color: white;
+}
+
+.mdl-mini-footer {
+	max-width: 1200px;
+	margin: auto;
+	padding: 32px;
+}
