@@ -16,8 +16,9 @@ var config = {
 //var database = database.firebase();
 
 // functions needed - 
-// on click search concerts, ajax call to SeatGeek API, display results on page
-// on click search lyrics, ajax call to MusixMatch API, display results on page
+// on click function to search concerts, ajax call to SeatGeek API, display results on page
+// on click function to search lyrics, ajax call to MusixMatch API, display results on page
+// on click function to sign up/log in (see below)
 // on click save to My Calendar, including database authentication (log in or using Google?, review Firebase documentation), push to database
 // database on value to update My Calendar page
 // on click to exit or cancel search & render on load view
