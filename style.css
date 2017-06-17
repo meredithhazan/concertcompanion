@@ -4,13 +4,17 @@
 
 .demo-layout-transparent {
   background: url('images/crowd-heart-photo.jpg');
-  height: 800px;
+  height: 800px; 
+  border-left: 10px solid black; 
+  border-right: 10px solid black;
+  border-top: 10px solid black;
+  border-bottom: 5px solid white; 
 }
 .demo-layout-transparent .mdl-layout__header,
 .demo-layout-transparent .mdl-layout__drawer-button {
   /* This background is dark, so we set text to white. Use 87% black instead if
      your background is light. */
-  color: white;
+  color: #fff;
   padding: 0 40px 0 100px;
 
 }
@@ -32,15 +36,44 @@
 
 .mdl-navigation__link {
 	font-size: 16px;
-}
+} 
 
 .mdl-cell {
 	margin: 55px;
-	color: white;
+	color: #fff;
 }
 
-.mdl-mini-footer {
+.mdl-mini-footer { 
+	border-left: 10px solid black; 
+	border-right: 10px solid black; 
+	border-bottom: 10px solid black;
 	max-width: 1200px;
 	margin: auto;
-	padding: 32px;
+	padding: 32px; 
+} 
+
+.query-container {
+	border-left: 10px solid black; 
+	border-right: 10px solid black; 
+	border-bottom: 5px solid white;
+	width: 1200px; 
+	margin: auto;
+	background: url('images/crowd-heart-photo.jpg');
+	color: #fff;
+	font-size: 20px; 
+	font-weight: bold; 
+	text-align: center;
+}  
+
+.form1 {
+	display: inline;
+} 
+
+.form2 {
+	display: inline;
 }
+
+button {
+	color: #808080;
+}  
+
